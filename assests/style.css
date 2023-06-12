@@ -88,8 +88,40 @@ h1,h2{
 
 /*main image1*/
 
+
+#cover-text1, #cover-text1 h2 {
+    color: black;
+    padding-right: 60%;
+    padding-bottom: 20%;
+    display:flexbox;
+
+}
+
 #main-image1{
     height: 550px;
     width: 100%;
     background: url('../assests/Dubai-Mall_2018_Dubai-Mall_Getty.webp')no-repeat center center;
+}
+
+#cover-text1, #cover-text1 h3{
+    white-space: nowrap;
+    text-overflow: clip;
+    color:black;
+}
+
+
+
+#cover-text1 {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+
+    width: 300px;
+    height: 30px;
+    bottom: 50px;
+    right: 100px;
+
+    position:absolute;
 }
