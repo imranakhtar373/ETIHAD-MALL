@@ -98,7 +98,7 @@ h1,h2{
 }
 
 #main-image1{
-    height: 550px;
+    height: 600px;
     width: 100%;
     background: url('../assests/Dubai-Mall_2018_Dubai-Mall_Getty.webp')no-repeat center center;
 }
@@ -124,4 +124,17 @@ h1,h2{
     right: 100px;
 
     position:absolute;
+}
+
+#middle-section{
+    height:600px;
+}
+
+#left-about {
+    background: url('../assests/gettyimage\ 1\ .jpeg')no-repeat;
+    height: 500px;
+    width: 100%;
+    padding-top: 100%;
+
+    float: right;
 }
