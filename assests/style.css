@@ -8,4 +8,10 @@
 
 h1{
     font-size: 180%;
+    font-family: 'Geneva', 'Verdana', 'sans-serif';
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing:8px;
+    color: black;
+
 }
