@@ -8,16 +8,14 @@
 body{
     font-family: sans-serif;
     color: black;
-    background-color:white;
+    background-color:whitesmoke;
 }
 
 #logo {
    height: 100px;
    width: 200px;
    margin-left: 20px;
-   border: 10%;
-   
-    
+   border: 10px;
 }
 
 h1,h2{
@@ -37,7 +35,7 @@ h1,h2{
     text-transform: uppercase;
     padding-top: 20px;
     word-spacing: 20px;
-    background-color:whitesmoke;
+    background-color:white;
     padding: 10px;
 
     
@@ -57,6 +55,15 @@ h1,h2{
     border-bottom: 1px solid #3a3a3a;
 }
 
+#link{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:#b8860b;
+    padding-left: 1200px;
+    padding-top: 10px;
+
+}
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -97,13 +104,16 @@ h1,h2{
     padding-right: 60%;
     padding-bottom: 20%;
     display:flexbox;
+    border-radius:50px;
+
+    
 
 }
 
 #main-image1{
     height: 600px;
     width: 100%;
-    background: url('../assests/IMAGES/Dubai-Mall_2018_Dubai-Mall_Getty.webp')no-repeat center center;
+    background: url('../assests/IMAGES/Dubai-Mall_2018_Dubai-Mall_GettyImages-520302504-copy.webp')no-repeat center center;
 }
 
 #cover-text1, #cover-text1 h3{
@@ -136,7 +146,7 @@ h1,h2{
 }
 
 #left-about {
-    background: url('../assests/gettyimage\ 1\ .jpeg')no-repeat;
+    background: url('../assests/IMAGES/gettyimage\ 1\ .jpeg')no-repeat;
     height: 10%;
     width: 50%;
    padding-top: 30%;
@@ -146,11 +156,23 @@ h1,h2{
 #right-about h1{
     font-size: small;
     letter-spacing: 1px;
+    padding-right: 15%;
+    padding-top: 40px;
 }
 #right-about h2{
     line-height: 50px;
+    font-size:xxx-large;
     font-family: Romain BP Headline Regular ,serif;
+    padding-right: 15%;
+    padding-top: 30px;
 }
+#right-about h3{
+    font-size: smaller;
+    padding-top: 50px;
+    padding-right: 15%;
+
+}
+
 #right-about{
     width:50%;
     float:right;
@@ -158,3 +180,53 @@ h1,h2{
     text-align: center;
 
 }
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 10px;
+    color: rgb(193, 163, 98);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+    margin-left: 240px;
+    margin-top: 50px;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    text-align: center;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+
+
+  
+  
+  
